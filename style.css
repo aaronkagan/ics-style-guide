@@ -247,3 +247,70 @@ body {
   line-height: 1.4;
   margin-top: 0.5rem;
 }
+
+.section-heading.fonts {
+  max-width: fit-content;
+  padding-right: 1.5rem;
+}
+
+.section-heading.fonts span {
+  text-transform: capitalize;
+}
+
+.section-wrapper.fonts p:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.section-wrapper.fonts p:nth-child(1) {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #1e1a50;
+  margin-top: 4rem;
+}
+
+.section-wrapper.fonts p:nth-child(2) {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1e1a50;
+}
+
+.section-wrapper.fonts p:nth-child(2) {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1e1a50;
+}
+
+.section-wrapper.fonts p:nth-child(3) {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a2950;
+}
+
+.section-wrapper.fonts p:nth-child(4) {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--blue);
+}
+
+.section-wrapper.fonts p:nth-child(5) {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--dark-gray);
+}
+
+.section-wrapper.fonts p:nth-child(6) {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #1a2950;
+}
+
+.section-wrapper.fonts p:nth-child(7) {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--dark-gray);
+}
+.section-wrapper.fonts p:nth-child(8) {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--red);
+}

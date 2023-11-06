@@ -14,75 +14,82 @@
 
 <body>
   <main class="main">
-    <section class="section buttons">
-      <h2 class="section-heading">Buttons</h2>
-      <div class="section-wrapper">
-        <div class="cols">
-          <div class="col">
+    <div class="main-col main-col-left">
+      <section class="section buttons">
+        <h2 class="section-heading">Buttons</h2>
+        <div class="section-wrapper">
+          <div class="cols">
+            <div class="col">
+              <span class="description">Default</span>
+              <button class="btn btn-primary">Primary Button</button>
+              <button class="btn btn-secondary">Secondary Button</button>
+            </div>
+            <div class="col">
+              <span class="description">Hovered</span>
+              <button class="btn btn-primary-hovered">Primary Button</button>
+              <button class="btn btn-secondary-hovered">Secondary Button</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section inputs">
+        <h2 class="section-heading">Inputs</h2>
+        <div class="section-wrapper">
+          <div>
+            <label class="input-label" for="full-name">Full Name</label>
+            <input autocomplete="off" class="input" id="full-name" type="text" placeholder="ex. Lida Owen">
             <span class="description">Default</span>
-            <button class="btn btn-primary">Primary Button</button>
-            <button class="btn btn-secondary">Secondary Button</button>
-          </div>
-          <div class="col">
-            <span class="description">Hovered</span>
-            <button class="btn btn-primary-hovered">Primary Button</button>
-            <button class="btn btn-secondary-hovered">Secondary Button</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section inputs">
-      <h2 class="section-heading">Inputs</h2>
-      <div class="section-wrapper">
-        <div>
-          <label class="input-label" for="full-name">Full Name</label>
-          <input autocomplete="off" class="input" id="full-name" type="text" placeholder="ex. Lida Owen">
-          <span class="description">Default</span>
-        </div>
-
-
-        <div>
-          <label class="input-label" for="name">Your Name</label>
-          <input autocomplete="off" class="input" id="name" type="text" placeholder="Anthony Webb">
-          <span class="description">Filled</span>
-        </div>
-
-        <div>
-          <label class="input-label" for="password">Password</label>
-
-          <div class="input-line-grouping">
-            <input autocomplete="off" class="input input-focused" id="password" type="password"
-              placeholder="5+ characters">
-            <span class="description">Focused with error message</span>
           </div>
 
 
-          <span class="alert">Your password must be at least <span class="strong">6 characters</span> long.</span>
-        </div>
-        <div>
-          <label class="input-label" for="email">Email Address</label>
-          <input autocomplete="off" class="input inactive" id="email" type="email" placeholder="myemail@address.com">
-          <span class="description">Inactive</span>
-        </div>
-      </div>
-    </section>
+          <div>
+            <label class="input-label" for="name">Your Name</label>
+            <input autocomplete="off" class="input" id="name" type="text" placeholder="Anthony Webb">
+            <span class="description">Filled</span>
+          </div>
 
-    <section class="section cards">
-      <h2 class="section-heading">Cards</h2>
-      <div class="section-wrapper">
-        <div class="cols">
-          <div class="col">
-            <h2 class="description">Default Card Background</h2>
-            <div class="card"></div>
+          <div>
+            <label class="input-label" for="password">Password</label>
+
+            <div class="input-line-grouping">
+              <input autocomplete="off" class="input input-focused" id="password" type="password"
+                placeholder="5+ characters">
+              <span class="description">Focused with error message</span>
+            </div>
+
+
+            <span class="alert">Your password must be at least <span class="strong">6 characters</span> long.</span>
           </div>
-          <div class="col">
-            <h2 class="description">Hovered Card Background</h2>
-            <div class="card card-hovered"></div>
+          <div>
+            <label class="input-label" for="email">Email Address</label>
+            <input autocomplete="off" class="input inactive" id="email" type="email" placeholder="myemail@address.com">
+            <span class="description">Inactive</span>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="section cards">
+        <h2 class="section-heading">Cards</h2>
+        <div class="section-wrapper">
+          <div class="cols">
+            <div class="col">
+              <h2 class="description">Default Card Background</h2>
+              <div class="card"></div>
+            </div>
+            <div class="col">
+              <h2 class="description">Hovered Card Background</h2>
+              <div class="card card-hovered"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <div class="main-col main-col-right">
+
+    </div>
+
 
 
 

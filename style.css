@@ -44,12 +44,25 @@ button {
 
 body {
   margin-left: 10rem;
-  border-left: 1px solid var(--light-gray);
   padding-bottom: 8em;
 }
 
 .strong {
   font-weight: 700;
+}
+
+.main {
+  display: flex;
+}
+
+.main-col {
+  border-left: 1px solid var(--light-gray);
+}
+.main-col-left {
+  max-width: 45%;
+}
+
+.main-col-right {
 }
 
 .section {

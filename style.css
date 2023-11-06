@@ -38,6 +38,21 @@ button {
   background: none;
 }
 
+body {
+  height: 100vh;
+  margin-left: 10rem;
+  border-left: 1px solid var(--light-gray);
+}
+
+.section {
+  padding-top: 8em;
+}
+
+.section-wrapper {
+  margin-top: 2.5rem;
+  margin-left: 3.5rem;
+}
+
 .section-heading {
   font-size: 1.4rem;
   color: var(--dark-gray);
@@ -51,18 +66,19 @@ button {
 }
 
 .description {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 500;
   color: var(--dark-gray);
   font-style: italic;
 }
 
 .btn {
-  padding: 1.5rem 4.5rem;
+  padding: 1.5rem 0;
   border-radius: 0.3rem;
   font-size: 1.4rem;
   font-weight: 500;
   letter-spacing: 0.8px;
+  min-width: 22rem;
 }
 
 .btn.btn-primary {
@@ -79,6 +95,19 @@ button {
   background-color: var(--light-gray);
   color: var(--dark-blue);
 }
+
 .btn.btn-secondary-hovered {
   background-color: var(--light-gray-hovered);
+}
+
+.btn-cols {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }

@@ -1,9 +1,11 @@
 :root {
-  --dark-blue: #242e4c;
+  --dark-blue: hsl(225, 36%, 22%);
+  --dark-blue-hovered: hsl(225, 36%, 12%);
   --blue: #738bfd;
   --red: #f55623;
   --dark-gray: #767e96;
-  --light-gray: #e9eaed;
+  --light-gray: hsl(225, 10%, 92%);
+  --light-gray-hovered: hsl(225, 10%, 82%);
   --very-light-gray: #f3f4f6;
 }
 
@@ -46,4 +48,37 @@ button {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 0.3rem 0.9rem 0.3rem 3.5rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--dark-gray);
+  font-style: italic;
+}
+
+.btn {
+  padding: 1.5rem 4.5rem;
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+
+.btn.btn-primary {
+  background-color: var(--dark-blue);
+  color: var(--very-light-gray);
+}
+
+.btn.btn-primary-hovered {
+  background-color: var(--dark-blue-hovered);
+  color: var(--very-light-gray);
+}
+
+.btn.btn-secondary {
+  background-color: var(--light-gray);
+  color: var(--dark-blue);
+}
+.btn.btn-secondary-hovered {
+  background-color: var(--light-gray-hovered);
 }

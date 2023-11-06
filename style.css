@@ -21,6 +21,8 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  margin-left: 10rem;
 }
 
 input {
@@ -42,10 +44,6 @@ button {
   background: none;
 }
 
-body {
-  margin-left: 10rem;
-}
-
 .strong {
   font-weight: 700;
 }
@@ -53,6 +51,7 @@ body {
 .main {
   display: flex;
   gap: 5%;
+  min-height: 100vh;
 }
 
 .main-col {
@@ -61,12 +60,11 @@ body {
 }
 
 .main-col-left {
-  width: 45%;
-
-  overflow: hidden;
+  max-width: 45%;
 }
 
 .main-col-right {
+  padding-right: 2.5%;
 }
 
 .section {
@@ -129,6 +127,7 @@ body {
 .cols {
   display: flex;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .col {
@@ -204,9 +203,9 @@ body {
 
 .color-boxes {
   display: flex;
-  gap: 2rem;
-  justify-content: space-evenly;
+  gap: 2.5rem;
   margin-top: 6rem;
+  flex-wrap: wrap;
 }
 
 .color-box {
@@ -337,4 +336,74 @@ body {
 
 .icon:nth-child(1) {
   width: 7.5rem;
+}
+
+@media all and (max-width: 1200px) {
+  .main-col-left {
+    /* max-width: 42.5%; */
+    max-width: unset;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 768px) {
+  body {
+    margin-left: 0;
+  }
+
+  .description.input-description {
+    margin-bottom: 2rem;
+    display: block;
+  }
+
+  .input-line-grouping {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .color-boxes {
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 578px) {
+  .cols {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-wrapper {
+    margin-left: 0;
+  }
+
+  .section.inputs .section-wrapper {
+    margin-left: auto;
+    max-width: 80%;
+  }
+
+  .section.inputs .section-heading,
+  .section.cards .section-heading {
+    margin-bottom: 8rem;
+  }
+
+  .section.colors {
+    padding-top: 0;
+  }
+
+  .section-wrapper.fonts {
+    width: 80%;
+    margin-left: 20%;
+  }
+
+  .section.icons {
+    margin-top: 0;
+  }
+
+  .icon-group {
+    justify-content: center;
+  }
 }

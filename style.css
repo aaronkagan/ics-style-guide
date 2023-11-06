@@ -4,7 +4,7 @@
   --red: #f55623;
   --dark-gray: #767e96;
   --light-gray: #e9eaed;
-  --very-light-gray: #242e4c;
+  --very-light-gray: #f3f4f6;
 }
 
 * {
@@ -34,4 +34,16 @@ a {
 button {
   border: none;
   background: none;
+}
+
+.section-heading {
+  font-size: 1.4rem;
+  color: var(--dark-gray);
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: var(--light-gray);
+  width: max-content;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0.3rem 0.9rem 0.3rem 3.5rem;
 }

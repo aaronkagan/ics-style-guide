@@ -50,14 +50,19 @@
 
         <div>
           <label class="input-label" for="password">Password</label>
-          <input autocomplete="off" class="input input-focused" id="password" type="password"
-            placeholder="5+ characters">
-          <span class="description">Focused with error message</span>
+
+          <div class="input-line-grouping">
+            <input autocomplete="off" class="input input-focused" id="password" type="password"
+              placeholder="5+ characters">
+            <span class="description">Focused with error message</span>
+          </div>
+
+
           <span class="alert">Your password must be at least <span class="strong">6 characters</span> long.</span>
         </div>
         <div>
           <label class="input-label" for="email">Email Address</label>
-          <input autocomplete="off" class="input" id="email" type="email" placeholder="myemail@address.com">
+          <input autocomplete="off" class="input inactive" id="email" type="email" placeholder="myemail@address.com">
           <span class="description">Inactive</span>
         </div>
       </div>

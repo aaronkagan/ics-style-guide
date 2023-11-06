@@ -149,10 +149,28 @@ body {
   margin-left: 1rem;
 }
 
+.input-line-grouping {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.input-line-grouping .input {
+  flex-shrink: 0;
+}
+
 .alert {
   display: block;
   color: var(--red);
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 2rem;
+}
+
+.input.inactive {
+  background-color: var(--very-light-gray);
+}
+
+.input.inactive::placeholder {
+  color: var(--dark-blue);
 }

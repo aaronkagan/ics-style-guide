@@ -8,7 +8,7 @@
 
 ### Links
 
-Live Demo: (https://aaronkagandev-style-guide.netlify.app/)[https://aaronkagandev-style-guide.netlify.app/]
+Live Demo: [https://aaronkagandev-style-guide.netlify.app/](https://aaronkagandev-style-guide.netlify.app/)
 
 ### Screenshots
 

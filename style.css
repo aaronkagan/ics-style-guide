@@ -52,6 +52,7 @@ body {
 
 .main {
   display: flex;
+  gap: 5%;
 }
 
 .main-col {
@@ -248,10 +249,13 @@ body {
   margin-top: 1rem;
 }
 
+.section.fonts {
+  margin-top: 3.5rem;
+}
+
 .section-heading.fonts {
   max-width: fit-content;
   padding-right: 1.5rem;
-  margin-top: 3.5rem;
 }
 
 .section-heading.fonts span {
@@ -314,4 +318,23 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
   color: var(--red);
+}
+
+.section.icons {
+  margin-top: 7rem;
+}
+
+.icon-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 5rem;
+}
+
+.icon:nth-child(1) {
+  width: 7.5rem;
 }

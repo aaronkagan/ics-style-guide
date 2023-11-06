@@ -43,9 +43,9 @@ button {
 }
 
 body {
-  height: 100vh;
   margin-left: 10rem;
   border-left: 1px solid var(--light-gray);
+  padding-bottom: 8em;
 }
 
 .strong {
@@ -53,7 +53,7 @@ body {
 }
 
 .section {
-  padding-top: 8em;
+  padding-top: 8rem;
 }
 
 .section-wrapper {
@@ -169,8 +169,16 @@ body {
 
 .input.inactive {
   background-color: var(--very-light-gray);
+  border: 1px solid #d7d7d7;
 }
 
 .input.inactive::placeholder {
   color: var(--dark-blue);
+}
+
+.card {
+  width: 22rem;
+  height: 14rem;
+  box-shadow: 0 0 20px var(--light-gray);
+  border-radius: 0.3rem;
 }

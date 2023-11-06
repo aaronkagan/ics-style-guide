@@ -171,10 +171,15 @@ button {
   display: flex;
   align-items: center;
   gap: 0.1rem;
+  flex-wrap: wrap;
 }
 
 .input-line-grouping .input {
   flex-shrink: 0;
+}
+
+.input-line-grouping .description {
+  max-width: 15%;
 }
 
 .alert {
@@ -183,6 +188,8 @@ button {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 2rem;
+  flex: 1;
+  flex-basis: 100%;
 }
 
 .input.inactive {
@@ -365,6 +372,16 @@ button {
     margin-bottom: 1rem;
   }
 
+  .input-line-grouping .description {
+    order: 3;
+    max-width: unset;
+    margin-bottom: 0.5rem;
+  }
+
+  .alert {
+    margin-bottom: 0.5rem;
+  }
+
   .color-boxes {
     justify-content: center;
   }
@@ -381,7 +398,7 @@ button {
   }
 
   .section.inputs .section-wrapper {
-    margin-left: auto;
+    margin-left: 12.5%;
     max-width: 80%;
   }
 
@@ -396,7 +413,7 @@ button {
 
   .section-wrapper.fonts {
     width: 80%;
-    margin-left: 20%;
+    margin-left: 10%;
   }
 
   .section.icons {

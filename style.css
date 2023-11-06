@@ -80,11 +80,10 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   background-color: var(--light-gray);
-  width: max-content;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 0.3rem 0 0.3rem 3.5rem;
-  width: 11.5rem;
+  max-width: 11.5rem;
 }
 
 .description {

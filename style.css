@@ -99,6 +99,7 @@ body {
   font-size: 1.4rem;
   font-weight: 500;
   letter-spacing: 0.8px;
+
   width: 22rem;
 }
 
@@ -143,9 +144,11 @@ body {
 .input {
   padding: 1.5rem;
   margin: 1rem 0;
-  width: 46rem;
   border: 1px solid var(--light-gray);
   border-radius: 0.3rem;
+
+  width: 46rem;
+  max-width: 80%;
 }
 
 .input::placeholder {

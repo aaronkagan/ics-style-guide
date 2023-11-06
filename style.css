@@ -109,12 +109,12 @@ body {
   background-color: var(--light-gray-hovered);
 }
 
-.btn-cols {
+.cols {
   display: flex;
   gap: 2rem;
 }
 
-.btn-col {
+.col {
   display: flex;
   flex-direction: column;
   align-items: center;

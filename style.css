@@ -337,11 +337,11 @@ button {
   gap: 1rem;
 }
 
-.icon {
+svg {
   width: 5rem;
 }
 
-.icon:nth-child(1) {
+svg:nth-child(1) {
   width: 7.5rem;
 }
 
@@ -353,6 +353,14 @@ button {
 
   .main {
     flex-direction: column;
+  }
+
+  .section.colors {
+    padding-top: 0;
+  }
+
+  .section.icons {
+    margin-top: 0;
   }
 }
 
@@ -407,17 +415,9 @@ button {
     margin-bottom: 8rem;
   }
 
-  .section.colors {
-    padding-top: 0;
-  }
-
   .section-wrapper.fonts {
     width: 80%;
     margin-left: 10%;
-  }
-
-  .section.icons {
-    margin-top: 0;
   }
 
   .icon-group {
